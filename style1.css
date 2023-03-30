@@ -1,0 +1,70 @@
+/* Стили для формы */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 200px;
+}
+
+/* Стили для форм-групп */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Стили для меток */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Стили для текстовых полей */
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Стили для кнопки отправки */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Стили для кнопки при наведении курсора */
+button[type="submit"]:hover {
+  background-color: red;
+}
+.header_link_gradient {
+  background-color: #4CAF50; /* Зеленый фон */
+  color: white; /* Белый текст */
+  border: none; /* Убираем границу */
+  padding: 10px 20px; /* Отступы вокруг текста */
+  border-radius: 20px; /* Закругленные углы */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Тень */
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; /* Плавное изменение при наведении курсора */
+}
+
+.header_link_gradient:hover {
+  background-color: #fff; /* Белый фон */
+  color: #4CAF50; /* Зеленый текст */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none; /* Более яркая тень */
+}
+body{ 
+ background: -webkit-linear-gradient(90deg, #0ed585,#5bd6b6,#a2d2cd);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #0ed585,#5bd6b6,#a2d2cd);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+ font-family: 'Poppins', sans-serif;
+ color: #9400d3 ;
+}
